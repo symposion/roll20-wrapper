@@ -10,11 +10,42 @@
       120,
       2
     ],
-    "no-param-reassign": [
+    "no-param-reassign": 0,
+    "prefer-rest-params": 0,
+    "brace-style": [
+      "error",
+      "stroustrup",
+      {
+        "allowSingleLine": true
+      }
+    ],
+    "space-before-function-paren": [
       "error",
       {
-        "props": false
+        "anonymous": "always",
+        "named": "never"
       }
+    ],
+    "no-use-before-define": [
+      "error",
+      {
+        "functions": false,
+        "classes": false
+      }
+    ],
+    "spaced-comment": [
+      2,
+      "always",
+      {
+        "exceptions": [
+          "/"
+        ]
+      }
+    ],
+    "no-nested-ternary": 0,
+    "no-cond-assign": [
+      2,
+      "except-parens"
     ]
   }
 }

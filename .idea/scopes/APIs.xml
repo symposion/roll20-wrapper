@@ -1,0 +1,3 @@
+<component name="DependencyValidationManager">
+  <scope name="APIs" pattern="file:lib/roll20.js" />
+</component>
