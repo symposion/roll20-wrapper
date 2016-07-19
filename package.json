@@ -1,6 +1,6 @@
 {
   "name": "roll20-wrapper",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "description": "Wrapper object for roll20 globals to make for easier testing etc",
   "main": "./lib/roll20.js",
   "scripts": {
